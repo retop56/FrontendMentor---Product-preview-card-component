@@ -1,0 +1,15 @@
+:root {
+    --clr-primary-one: hsl(158, 36%, 37%);
+    --clr-primary-two: hsl(30, 38%, 92%);
+    --clr-neutral-one: hsl(212, 21%, 14%);
+    --clr-neutral-two: hsl(228, 12%, 48%);
+    --clr-neutral-three: hsl(0, 0%, 100%);
+
+    --fs-para: 14px;
+
+    --ff-one: 'Montserrat', serif;
+    --ff-two: 'Fraunces', sans-serif;
+
+    --fw-one: 500;
+    --fw-two: 700;
+}
