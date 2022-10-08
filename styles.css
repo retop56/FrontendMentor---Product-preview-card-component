@@ -1,3 +1,4 @@
+
 :root {
     --clr-primary-one: hsl(158, 36%, 37%);
     --clr-primary-two: hsl(30, 38%, 92%);
@@ -12,4 +13,40 @@
 
     --fw-one: 500;
     --fw-two: 700;
+}
+
+body {
+    background-color: var(--clr-primary-two);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card {
+    background-color: var(--clr-neutral-three);
+    border-radius: 3%;
+    display: flex;
+    overflow: hidden;
+    width: 35rem;
+    height: 30rem;
+    flex: 1 1 auto;
+}
+
+.product-image {
+    width: 50%;
+    overflow: hidden;
+    background-image: url(./images/image-product-desktop.jpg);
+    flex: 1 0 auto;
+    background-size: cover;
+}
+
+.product-info {
+    width: 50%;
+    padding: 1rem 2rem;
+}
+
+.product-category {
+    text-transform: uppercase;
+    
 }
